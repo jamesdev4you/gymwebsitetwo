@@ -1,5 +1,22 @@
 import Button from '@mui/material/Button';
 
+const HomeHeaderButton = (props) => (
+  <Button
+    variant='contained'
+    sx={{
+      backgroundColor: 'info.main',
+      color: 'primary.main',
+      padding: '1em',
+      width: '90%',
+      '&:hover': {
+        backgroundColor: 'info.main',
+      },
+    }}
+  >
+    Claim Your Trail Training Session!
+  </Button>
+);
+
 const HomeHeaderDarkButton = (props) => (
   <Button
     variant='contained'
@@ -87,6 +104,7 @@ const HomeMissionButton = (props) => (
 );
 
 export {
+  HomeHeaderButton,
   HomeHeaderDarkButton,
   HomeHeaderLightButton,
   HomeTestimonialButton,
