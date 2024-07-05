@@ -9,6 +9,7 @@ import HomeCards from './HomeCards';
 import HomeQuotes from '../../assets/homeQuotes.png';
 import HomeTestimonials from './HomeTestimonials';
 import HomeMission from './HomeMission';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <HomeCards />
       <HomeTestimonials />
       <HomeMission />
+      <Footer />
     </Box>
   );
 };
