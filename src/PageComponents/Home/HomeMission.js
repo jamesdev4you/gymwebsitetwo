@@ -97,7 +97,7 @@ const HomeMission = () => {
           back of many client workout shirts says, “Serious Fitness — Fad Free
           Fitness Since 2003”.
         </Typography>
-        <HomeMissionButton />
+        <HomeMissionButton title={'Contact an Expert'} />
       </Box>
     </Box>
   );

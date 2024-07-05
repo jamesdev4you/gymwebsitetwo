@@ -171,7 +171,7 @@ const HomeTestimonials = () => {
           </Box>
         </Box>
       </Box>
-      <HomeTestimonialButton />
+      <HomeTestimonialButton title={'Read More Stories'} />
     </Box>
   );
 };

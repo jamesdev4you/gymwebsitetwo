@@ -77,7 +77,7 @@ const HomeTestimonialButton = (props) => (
       },
     }}
   >
-    Read More Stories
+    {props.title}
   </Button>
 );
 
@@ -99,7 +99,7 @@ const HomeMissionButton = (props) => (
       },
     }}
   >
-    Read More Stories
+    {props.title}
   </Button>
 );
 
