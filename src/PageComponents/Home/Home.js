@@ -2,13 +2,13 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import fillerPic from '../../assets/homeheader.png';
 import Typography from '@mui/material/Typography';
-import {
-  HomeHeaderDarkButton,
-  HomeHeaderLightButton,
-} from '../styledComponents';
+import { HomeMissionButton } from '../styledComponents';
 import HomeHeader from './HomeHeader';
 import HomeInfo from './HomeInfo';
 import HomeCards from './HomeCards';
+import HomeQuotes from '../../assets/homeQuotes.png';
+import HomeTestimonials from './HomeTestimonials';
+import HomeMission from './HomeMission';
 
 const Home = () => {
   return (
@@ -20,12 +20,13 @@ const Home = () => {
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        gap: '5em',
       }}
     >
       <HomeHeader />
       <HomeInfo />
       <HomeCards />
+      <HomeTestimonials />
+      <HomeMission />
     </Box>
   );
 };

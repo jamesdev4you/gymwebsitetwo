@@ -42,4 +42,53 @@ const HomeHeaderLightButton = (props) => (
   </Button>
 );
 
-export { HomeHeaderDarkButton, HomeHeaderLightButton };
+const HomeTestimonialButton = (props) => (
+  <Button
+    variant='contained'
+    sx={{
+      backgroundColor: 'primary.main',
+      color: 'secondary.main',
+      padding: '.5em',
+      width: '200px',
+      borderStyle: 'solid',
+      borderWidth: '3px',
+      borderColor: 'primary.main',
+      borderRadius: '25px',
+      '&:hover': {
+        backgroundColor: 'secondary.main',
+        color: 'primary.main',
+      },
+    }}
+  >
+    Read More Stories
+  </Button>
+);
+
+const HomeMissionButton = (props) => (
+  <Button
+    variant='contained'
+    sx={{
+      backgroundColor: 'secondary.main',
+      color: 'primary.main',
+      padding: '.5em',
+      width: '200px',
+      borderStyle: 'solid',
+      borderWidth: '3px',
+      borderColor: 'secondary.main',
+      borderRadius: '25px',
+      '&:hover': {
+        backgroundColor: 'primary.main',
+        color: 'secondary.main',
+      },
+    }}
+  >
+    Read More Stories
+  </Button>
+);
+
+export {
+  HomeHeaderDarkButton,
+  HomeHeaderLightButton,
+  HomeTestimonialButton,
+  HomeMissionButton,
+};

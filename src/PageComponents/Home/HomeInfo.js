@@ -24,7 +24,7 @@ const HomeInfo = () => {
           xs: '1em',
         },
         paddingBottom: '2em',
-        paddingTop: '2em',
+        paddingTop: '7em',
         display: 'flex',
         alignItems: 'start',
         justifyContent: 'space-between',
@@ -99,8 +99,8 @@ const HomeInfo = () => {
       </Box>
       <Box
         sx={{
-          width: '38%',
-          height: '38vh',
+          width: '34%',
+          height: '36vh',
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'start',
@@ -110,6 +110,7 @@ const HomeInfo = () => {
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          marginTop: '.5em',
         }}
       ></Box>
     </Box>
