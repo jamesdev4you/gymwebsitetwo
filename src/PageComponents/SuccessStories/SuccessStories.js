@@ -130,6 +130,13 @@ const SuccessStories = () => {
                 backgroundPosition: 'bottom',
                 height: '100px',
                 width: '100px',
+                display: {
+                  xl: 'flex',
+                  lg: 'flex',
+                  md: 'none',
+                  sm: 'none',
+                  xs: 'none',
+                },
               }}
             />
             <Box
@@ -148,7 +155,13 @@ const SuccessStories = () => {
               <Typography
                 variant='h5'
                 sx={{
-                  marginLeft: 'auto',
+                  marginLeft: {
+                    xl: 'auto',
+                    lg: 'auto',
+                    md: '0px',
+                    sm: '0px',
+                    xs: '0px',
+                  },
                   color: 'info.main',
                   fontWeight: 'bold',
                 }}

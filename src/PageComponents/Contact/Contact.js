@@ -19,7 +19,13 @@ const Contact = () => {
     >
       <Box
         sx={{
-          height: '45vh',
+          height: {
+            xl: '45vh',
+            lg: '50vh',
+            md: '50vh',
+            sm: '50vh',
+            xs: '60vh',
+          },
           width: '100%',
           paddingLeft: {
             xl: '20em',
