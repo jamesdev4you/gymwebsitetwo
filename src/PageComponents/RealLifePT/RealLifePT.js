@@ -23,7 +23,13 @@ const RealLifePT = () => {
     >
       <Box
         sx={{
-          height: '50vh',
+          height: {
+            xl: '45vh',
+            lg: '50vh',
+            md: '50vh',
+            sm: '50vh',
+            xs: '70vh',
+          },
           width: '100%',
           paddingLeft: {
             xl: '20em',
@@ -51,13 +57,13 @@ const RealLifePT = () => {
       >
         <Typography
           variant='h3'
-          sx={{ color: 'primary.main', fontWeight: 'bold', width: '40%' }}
+          sx={{ color: 'primary.main', fontWeight: 'bold', width: '100%' }}
         >
           PERSONAL TRAINING SERVICES IN BOULDER
         </Typography>
         <Typography
           variant='p'
-          sx={{ color: 'primary.main', width: '40%', lineHeight: '26px' }}
+          sx={{ color: 'primary.main', width: '100%', lineHeight: '26px' }}
         >
           WE GUARANTEE THAT WE'LL MAKE YOU INCREDIBLY FIT. OUR PROGRAMS ARE
           PROVEN TO MAKE YOU LEANER, STRONGER & MORE MUSCULAR WHILE ALSO
@@ -67,22 +73,30 @@ const RealLifePT = () => {
       </Box>
       <Box
         sx={{
-          height: '100vh',
+          height: {
+            xl: '100vh',
+            lg: '100vh',
+            md: '100vh',
+            sm: 'auto',
+            xs: 'auto',
+          },
           width: '100%',
           paddingLeft: {
             xl: '20em',
             lg: '18em',
-            md: '12em',
+            md: '2em',
             sm: '2em',
             xs: '1em',
           },
           paddingRight: {
             xl: '20em',
             lg: '18em',
-            md: '12em',
+            md: '2em',
             sm: '2em',
             xs: '1em',
           },
+          paddingBottom: '3em',
+          paddingTop: '3em',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -94,7 +108,13 @@ const RealLifePT = () => {
           sx={{
             width: '50%',
             height: 'auto',
-            display: 'flex',
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'flex',
+              sm: 'none',
+              xs: 'none',
+            },
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',
@@ -107,7 +127,7 @@ const RealLifePT = () => {
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',
               backgroundPosition: 'bottom',
-              height: '50vh',
+              height: { xl: '50vh', lg: '30vh', md: '30vh' },
               width: '100%',
             }}
           />
@@ -127,7 +147,7 @@ const RealLifePT = () => {
         </Box>
         <Box
           sx={{
-            width: '45%',
+            width: { xl: '45%', lg: '45%', md: '45%', sm: '100%', xs: '100%' },
             height: 'auto',
             display: 'flex',
             flexDirection: 'column',
