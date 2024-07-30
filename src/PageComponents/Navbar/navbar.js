@@ -27,7 +27,7 @@ const navItems = [
     submenu: [
       {
         text: 'Real Life 1:1 Training',
-        href: '/workwithme/reallife1on1training',
+        href: '/programs/reallife1on1training',
       },
       { text: 'Remote 1:1 Training', href: '/programs/remote1on1training' },
     ],
