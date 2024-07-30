@@ -8,22 +8,29 @@ const HomeTestimonials = () => {
   return (
     <Box
       sx={{
-        height: '100vh',
+        height: {
+          xl: '100vh',
+          lg: '100vh',
+          md: '70vh',
+          sm: '70vh',
+          xs: '100vh',
+        },
         width: '100%',
         paddingLeft: {
-          xl: '20em',
-          lg: '18em',
-          md: '12em',
+          xl: '10em',
+          lg: '4em',
+          md: '2em',
           sm: '2em',
           xs: '1em',
         },
         paddingRight: {
-          xl: '20em',
-          lg: '18em',
-          md: '12em',
+          xl: '10em',
+          lg: '4em',
+          md: '2em',
           sm: '2em',
           xs: '1em',
         },
+        gap: { xl: '0px', lg: '0px', md: '1em', sm: '2em', xs: '2em' },
         backgroundColor: 'secondary.main',
         display: 'flex',
         flexDirection: 'column',
@@ -44,7 +51,13 @@ const HomeTestimonials = () => {
           sx={{
             height: '100%',
             width: '50%',
-            display: 'flex',
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'none',
+              sm: 'none',
+              xs: 'none',
+            },
             flexDirection: 'column',
             alignItems: 'start',
             justifyContent: 'center',
@@ -82,7 +95,7 @@ const HomeTestimonials = () => {
         <Box
           sx={{
             height: '100%',
-            width: '45%',
+            width: { xl: '45%', lg: '45%', md: '100%', sm: '100%', xs: '100%' },
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'start',

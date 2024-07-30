@@ -28,12 +28,26 @@ const HomeCards = () => {
         alignItems: 'start',
         justifyContent: 'space-between',
         backgroundColor: '#f7f7f7',
+        flexDirection: {
+          xl: 'row',
+          lg: 'column',
+          md: 'column',
+          sm: 'column',
+          xs: 'column',
+        },
+        gap: { xl: '0px', lg: '1em', md: '1em', sm: '1em', xs: '1em' },
       }}
     >
       <Box
         sx={{
-          width: '30%',
-          height: '40vh',
+          width: { xl: '30%', lg: '100%', md: '100%', sm: '100%', xs: '100%' },
+          height: {
+            xl: '50vh',
+            lg: '30vh',
+            md: '30vh',
+            sm: '30vh',
+            xs: '50vh',
+          },
           borderStyle: 'solid',
           borderWidth: '3px',
           borderColor: 'info.main',
@@ -70,8 +84,14 @@ const HomeCards = () => {
       </Box>
       <Box
         sx={{
-          width: '30%',
-          height: '50vh',
+          width: { xl: '30%', lg: '100%' },
+          height: {
+            xl: '60vh',
+            lg: '30vh',
+            md: '30vh',
+            sm: '30vh',
+            xs: '50vh',
+          },
           borderStyle: 'solid',
           borderWidth: '3px',
           borderColor: 'info.main',
@@ -110,8 +130,14 @@ const HomeCards = () => {
       </Box>
       <Box
         sx={{
-          width: '30%',
-          height: '40vh',
+          width: { xl: '30%', lg: '100%' },
+          height: {
+            xl: '50vh',
+            lg: '30vh',
+            md: '30vh',
+            sm: '30vh',
+            xs: '50vh',
+          },
           borderStyle: 'solid',
           borderWidth: '3px',
           borderColor: 'info.main',

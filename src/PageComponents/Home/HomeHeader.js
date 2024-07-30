@@ -49,8 +49,21 @@ const HomeHeader = () => {
       <Box
         sx={{
           width: '100%',
-          height: '35vh',
+          height: {
+            xl: '35vh',
+            lg: '35vh',
+            md: '35vh',
+            sm: '35vh',
+            xs: '50vh',
+          },
           display: 'flex',
+          flexDirection: {
+            xl: 'row',
+            lg: 'row',
+            md: 'row',
+            sm: 'row',
+            xs: 'column',
+          },
           alignItems: 'center',
           justifyContent: 'center',
           marginTop: '25em',
@@ -58,7 +71,13 @@ const HomeHeader = () => {
       >
         <Box
           sx={{
-            width: '50%',
+            width: {
+              xl: '50%',
+              lg: '50%',
+              md: '50%',
+              sm: '50%',
+              xs: '100%',
+            },
             height: '100%',
             backgroundColor: 'secondary.main',
             padding: '2em',
@@ -75,7 +94,7 @@ const HomeHeader = () => {
           >
             1-ON-1 PERSONAL TRAINING
           </Typography>
-          <Typography variant='h6' sx={{ color: 'primary.main' }}>
+          <Typography variant='p' sx={{ color: 'primary.main' }}>
             ELITE, RESULTS BASED PERSONAL TRAINING SERVICES IN THE BOULDER, CO
             AREA.
           </Typography>
@@ -83,7 +102,13 @@ const HomeHeader = () => {
         </Box>
         <Box
           sx={{
-            width: '50%',
+            width: {
+              xl: '50%',
+              lg: '50%',
+              md: '50%',
+              sm: '50%',
+              xs: '100%',
+            },
             height: '100%',
             backgroundColor: 'info.main',
             padding: '2em',
@@ -100,7 +125,7 @@ const HomeHeader = () => {
           >
             WORLDWIDE ONLINE PERSONAL TRAINING
           </Typography>
-          <Typography variant='h6' sx={{ color: 'primary.main' }}>
+          <Typography variant='p' sx={{ color: 'primary.main' }}>
             HIGHLY EFFECTIVE ONLINE STRENGTH AND CONDITIONING PROGRAMS FOR MEN &
             WOMEN.
           </Typography>

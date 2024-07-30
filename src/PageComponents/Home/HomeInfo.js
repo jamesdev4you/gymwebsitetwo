@@ -32,7 +32,7 @@ const HomeInfo = () => {
     >
       <Box
         sx={{
-          width: '60%',
+          width: { xl: '60%', lg: '60%', md: '100%', sm: '100%', xs: '100%' },
           height: 'auto',
           display: 'flex',
           flexDirection: 'column',
@@ -101,7 +101,13 @@ const HomeInfo = () => {
         sx={{
           width: '34%',
           height: '36vh',
-          display: 'flex',
+          display: {
+            xl: 'flex',
+            lg: 'flex',
+            md: 'none',
+            sm: 'none',
+            xs: 'none',
+          },
           flexDirection: 'column',
           alignItems: 'start',
           justifyContent: 'center',
@@ -112,7 +118,7 @@ const HomeInfo = () => {
           backgroundPosition: 'center',
           marginTop: '.5em',
         }}
-      ></Box>
+      />
     </Box>
   );
 };

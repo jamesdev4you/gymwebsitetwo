@@ -37,7 +37,13 @@ const HomeMission = () => {
         sx={{
           width: '600px',
           height: '400px',
-          display: 'flex',
+          display: {
+            xl: 'flex',
+            lg: 'none',
+            md: 'none',
+            sm: 'none',
+            xs: 'none',
+          },
           flexDirection: 'column',
           alignItems: 'start',
           justifyContent: 'center',
@@ -51,7 +57,7 @@ const HomeMission = () => {
       />
       <Box
         sx={{
-          width: '45%',
+          width: { xl: '45%', lg: '100%', md: '100%', sm: '100%', xs: '100%' },
           height: 'auto',
           display: 'flex',
           flexDirection: 'column',
